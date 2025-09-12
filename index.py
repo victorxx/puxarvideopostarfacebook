@@ -19,10 +19,11 @@ def gravar_propaganda_texto():
             "#SolCapixaba", "#ViagemES", "#Capixabando", "#VixDaDepressao", "#IlhaDoMelES",
             "#PedraDaCebola", "#ConventoDaPenha", "#ManguinhosES", "#PraiaDaCosta", "#MeioAmbienteES"
         ]
-
         propaganda = [
             "Empréstimo INSS/servidor/pessoal/PJ \nSaque FGTS Financiamento/\nConsórcio Seguro\n"
-            "(27) 99726-9454 WhatsApp  \nEndereço: Av. Jerônimo Monteiro, 685 - Centro, Vitória - ES, 29010-003"
+            "(27) 99726-9454 WhatsApp  \nEndereço: Av. Jerônimo Monteiro, 685 - Centro, Vitória - ES, 29010-003",
+            "Solicite sua Cotação SEGUROS,CONSÓRCIOS ENTRE OUTROS...27-99949-7001 ATENDIMENTO EM TODAS AS SEGURADORAS TODAS AS SEGURADORAS",
+            "💻 VPS Rápido, Seguro e Barato contato whatsapp 027 99986-0405"
         ]
 
         escolhido = random.choice(propaganda)
