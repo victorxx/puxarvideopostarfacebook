@@ -24,6 +24,7 @@ def gravar_propaganda_texto():
         ]
 
         propaganda = [
+            "PRECISA DE CRÉDITO PESSOAL TA AQUI A SOLUÇÃO -> https://geocredibnkvitoria.com/ "
             "Telefone: (27) 99726-9454   Agência de intermediação entre você e os bancos, em busca de juros baixo e soluções financeiras, empréstimos, financiamentos, .."
             "A Geo Credi BNK Vitória é uma agência de intermediação entre você e os bancos, em busca de juros baixo e soluções financeiras, empréstimos, financiamentos, Endereço: Av. Jerônimo Monteiro, 685 - Centro, Vitória - ES, 29010-003 \n"
             "A Geo Credi BNK Vitória é uma agência de intermediação entre você e os bancos\n  juros baixo e soluções financeiras, empréstimos, financiamentos, Empréstimo INSS/servidor/pessoal/PJ \nSaque FGTS Financiamento/\nConsórcio Seguro",
@@ -50,7 +51,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=fim+dos+tempos')
+            page.goto('https://www.youtube.com/results?search_query=PROGRAMACAO+DE+JOGOS+PYTHON')
             time.sleep(3)
 
             for _ in range(5):
