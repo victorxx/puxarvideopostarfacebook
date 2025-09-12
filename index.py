@@ -51,7 +51,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=PROGRAMACAO+DE+JOGOS+PYTHON')
+            page.goto('https://www.youtube.com/results?search_query=forza+gameplay')
             time.sleep(3)
 
             for _ in range(5):
