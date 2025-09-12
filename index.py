@@ -61,9 +61,10 @@ def gravar_propaganda_texto():
             novo = random.choice(list(links))
 
             retorno = f"{escolhido}\n\n{novo}\n\n\n\"{escolher_tag}\"\n\n\n{''.join(random.choices(string.ascii_letters, k=33))}"
-            print(retorno)
-
             browser.close()
+            return retorno
+
+            
 
     except Exception as e:
         print('Erro ao acessar o YouTube ou coletar os dados...')
