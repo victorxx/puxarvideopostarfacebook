@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#MoquecaCapixaba", "#ComidaCapixaba", "#GastronomiaCapixaba", "#CulináriaCapixaba", "#MoquecaÉCapixaba", "#GastronomiaES", "#ComidaDeVerdade", "#ComidaDoES", "#ComidaTípicaCapixaba", "#SaboresCapixabas", "#RestaurantesES", "#ComidaDeBotecoES", "#FeiraCapixaba", "#CaféCapixaba", "#ComidaArtesanalES", "#DelíciasCapixabas", "#PeixeFritoES", "#ArrozComPeixe", "#ComidaCaseiraES", "#CapixabaDaGema", "#CapixabaNaCozinha",
+            "#ChurrascoCapixaba", "#ChurrascoES", "#ChurrasNoES", "#ChurrascoDeFDS", "#Churrasqueada", "#CarnesDoES", "#EspetinhoCapixaba", "#CostelaNoFogoDeChão", "#PicanhaCapixaba", "#ChurrasEntreAmigos", "#ChurrascoArtesanal", "#ChurrascoDeVerdade", "#ChurrascoNaBrasa",
             "#Vitória", "#VilaVelha", "#Serra", "#CariacicaES", "#Guarapari", "#Linhares",
             "#DomingosMartins", "#MontanhasCapixabas", "#ESéLindo", "#Capixabinha", "#OrgulhoCapixaba",
             "#CapixabaDaGema", "#RoleCapixaba", "#PraiadoCanto", "#Camburi", "#CurvaDaJurema",
@@ -19,14 +21,42 @@ def gravar_propaganda_texto():
             "#NaturezaCapixaba", "#AmoES", "#DescubraES", "#FotografiaES", "#ExploreES", "#PéNaAreia",
             "#SolCapixaba", "#ViagemES", "#Capixabando", "#VixDaDepressao", "#IlhaDoMelES",
             "#PedraDaCebola", "#ConventoDaPenha", "#ManguinhosES", "#PraiaDaCosta", "#MeioAmbienteES",
-            "#EspíritoSanto", "#TurismoES", "#VitoriaES", "#VilaVelhaES", "#Guarapari", "#DomingosMartins", "#PraiasDoES", "#LitoralCapixaba", "#NaturezaCapixaba", "#MeioAmbienteCapixaba", "#TrilhasES", "#PicoDaBandeira", "#MorroDoMoxuara", "#PedraAzul", "#ParqueDaFonteGrande", "#IlhaDoFrade", "#IlhaDoBoi", "#PraiaDeCamburi", "#PraiaDeItaparica", "#AmoES", "#VemProES", "#DescubraES", "#ESMaravilhoso", "#BelezasCapixabas", "#NaturezaES",
-            "Industrial", "Ipanema", "Soteco", "Vale do Sol", "Vila Bethânia", "Bom Pastor", "Morada Bethânia", "Parque Residencial Bethânia", "Village Belém", "Nova Belém", "Vista Linda", "Treze de Maio", "Chácaras Beira Rio", "Guaritas", "Seminário", "Antártica", "Mamoeiro", "Garoupa", "Pedra da Mulata", "Vale do Sol A", "Vale do Sol B", "Vale do Sol C", "Vale do Sol D", "Calabouço", "Buiaiaras", "Treze de Maio", "Nova Vila Bethânia", "Eldorado", "Santa Terezinha (Lagoa Azul)", "Vila Nova", "Parque do Flamengo", "Nova Viana", "Nova Viana I", "Chácaras Pedra Negra", "Vista Linda", "Estrada da Garoupa", "Rua Biricas", "Rua Bom Jesus do Morro de Baixo", "Rua Presídio", "Rua Pedra da Mulata", "Rua São Paulo de Cima", "Rua Pau Amarelo", "Rua Augusto Alves de Araújo", "Rua Domingos Vicente", "Rua Frederico Ozanan", "Rua Governador Rubim", "Rua Heribaldo Lopes Balestrero", "Avenida Aníbal Moutinho", "Avenida Beira Rio",
-             "#VianaES", "#CulturaVianense", "#HistóriaDeViana", "#CentroDeViana", "#MarcílioDeNoronha", "#Araçatiba", "#Jucu", "#VianaSede", "#GrandeVitoria", "#TurismoViana", "#NaturezaViana", "#TrilhasDeViana", "#IgrejaDeViana", "#GastronomiaViana", "#ComidaCapixaba", "#ArtesanatoCapixaba", "#VianaRural", "#CaféDeViana", "#FeiraDeViana", "#LagoaDeCaracás", "#PedraDaMulata", "#CachoeirasDeViana", "#CaminhosDeViana", "#CulturaCapixaba", "#EspíritoSanto", "#InteriorCapixaba", "#TradiçãoVianense", "#FotosDeViana", "#VianenseComOrgulho", "#VianaAntiga", "#VianaModerna", "#EventosEmViana", "#FestaDeViana", "#PatrimônioHistórico", "#CaminhosDoES", "#RuasDeViana", "#BairrosDeViana", "#IgrejaNossaSenhoraDaConceição", "#PovoDeViana", "#TurismoCapixaba", "#VianaTem", "#VianaÉLinda", "#VianaÉCultura", "#VianaESBrasil", "#CidadeDeViana", "#MoradoresDeViana", "#VidaEmViana", "#Vianando", "#DescubraViana", "#PaixãoPorViana",
-            "#vilavelha", "#vilavelhagastronomia", "#comidavilavelha", "#vilavelharestaurantes", "#comidacapixaba", "#gastronomiacapixaba", "#vilavelhadelivery", "#vilavelhabares", "#vilavelhalanches", "#vilavelhafoodie", "#vilavelharestô", "#vilavelhapratos", "#foodvilavelha", 
-            "#vilavelhaes", "#praiadacosta", "#conventodapenha", "#vilavelhapraias", "#turismovilavelha", "#vilavelhabeach", "#vilavelhanatureza", "#vilavelhaparaiso", "#vilavelhatrip", "#vilavelhaturismo", "#vilavelhasunset", "#vilavelhapordosol", 
-            "#vilavelhaurbana", "#vilavelhastyle", "#vilavelhavibes", "#vilavelhanight", "#vilavelhaevento", "#vilavelharole", "#vilavelhapasseio", "#vilavelhashopping", "#vilavelhacultura", "#vilavelhaart", "#vilavelhafeira", "#vilavelhafds", 
-            "#vilavelhafitness", "#vilavelhasesaude", "#vilavelhatreino", "#vilavelhasurf", "#vilavelharun", "#vilavelhapraiaativa", "#vilavelhafit", "#vilavelhayoga", 
-            "#vilavelhavlog", "#vilavelhastory", "#vilavelhafilme", "#vilavelhaporai", "#vilavelhafotos", "#vilavelhavisual", "#vilavelhareels", "#vilavelhashorts",    
+            "#EspíritoSanto", "#TurismoES", "#VitoriaES", "#VilaVelhaES", "#Guarapari", "#DomingosMartins",
+            "#PraiasDoES", "#LitoralCapixaba", "#NaturezaCapixaba", "#MeioAmbienteCapixaba", "#TrilhasES",
+            "#PicoDaBandeira", "#MorroDoMoxuara", "#PedraAzul", "#ParqueDaFonteGrande", "#IlhaDoFrade",
+            "#IlhaDoBoi", "#PraiaDeCamburi", "#PraiaDeItaparica", "#AmoES", "#VemProES", "#DescubraES",
+            "#ESMaravilhoso", "#BelezasCapixabas", "#NaturezaES", "#Industrial", "#Ipanema", "#Soteco",
+            "#ValedoSol", "#VilaBethânia", "#BomPastor", "#MoradaBethânia", "#ParqueResidencialBethânia",
+            "#VillageBelém", "#NovaBelém", "#VistaLinda", "#TrezedeMaio", "#ChácarasBeiraRio", "#Guaritas",
+            "#Seminário", "#Antártica", "#Mamoeiro", "#Garoupa", "#PedraDaMulata", "#ValeDoSolA", "#ValeDoSolB",
+            "#ValeDoSolC", "#ValeDoSolD", "#Calabouço", "#Buiaiaras", "#TrezeDeMaio", "#NovaVilaBethânia",
+            "#Eldorado", "#SantaTerezinhaLagoaAzul", "#VilaNova", "#ParqueDoFlamengo", "#NovaViana",
+            "#NovaVianaI", "#ChácarasPedraNegra", "#VistaLinda", "#EstradaDaGaroupa", "#RuaBiricas",
+            "#RuaBomJesusDoMorroDeBaixo", "#RuaPresídio", "#RuaPedraDaMulata", "#RuaSãoPauloDeCima",
+            "#RuaPauAmarelo", "#RuaAugustoAlvesDeAraújo", "#RuaDomingosVicente", "#RuaFredericoOzanan",
+            "#RuaGovernadorRubim", "#RuaHeribaldoLopesBalestrero", "#AvenidaAníbalMoutinho", "#AvenidaBeiraRio",
+            "#VianaES", "#CulturaVianense", "#HistóriaDeViana", "#CentroDeViana", "#MarcílioDeNoronha",
+            "#Araçatiba", "#Jucu", "#VianaSede", "#GrandeVitoria", "#TurismoViana", "#NaturezaViana",
+            "#TrilhasDeViana", "#IgrejaDeViana", "#GastronomiaViana", "#ComidaCapixaba", "#ArtesanatoCapixaba",
+            "#VianaRural", "#CaféDeViana", "#FeiraDeViana", "#LagoaDeCaracás", "#PedraDaMulata",
+            "#CachoeirasDeViana", "#CaminhosDeViana", "#CulturaCapixaba", "#EspíritoSanto", "#InteriorCapixaba",
+            "#TradiçãoVianense", "#FotosDeViana", "#VianenseComOrgulho", "#VianaAntiga", "#VianaModerna",
+            "#EventosEmViana", "#FestaDeViana", "#PatrimônioHistórico", "#CaminhosDoES", "#RuasDeViana",
+            "#BairrosDeViana", "#IgrejaNossaSenhoraDaConceição", "#PovoDeViana", "#TurismoCapixaba",
+            "#VianaTem", "#VianaÉLinda", "#VianaÉCultura", "#VianaESBrasil", "#CidadeDeViana", "#MoradoresDeViana",
+            "#VidaEmViana", "#Vianando", "#DescubraViana", "#PaixãoPorViana",
+            "#vilavelha", "#vilavelhagastronomia", "#comidavilavelha", "#vilavelharestaurantes",
+            "#comidacapixaba", "#gastronomiacapixaba", "#vilavelhadelivery", "#vilavelhabares",
+            "#vilavelhalanches", "#vilavelhafoodie", "#vilavelharestô", "#vilavelhapratos", "#foodvilavelha",
+            "#vilavelhaes", "#praiadacosta", "#conventodapenha", "#vilavelhapraias", "#turismovilavelha",
+            "#vilavelhabeach", "#vilavelhanatureza", "#vilavelhaparaiso", "#vilavelhatrip",
+            "#vilavelhaturismo", "#vilavelhasunset", "#vilavelhapordosol", "#vilavelhaurbana",
+            "#vilavelhastyle", "#vilavelhavibes", "#vilavelhanight", "#vilavelhaevento", "#vilavelharole",
+            "#vilavelhapasseio", "#vilavelhashopping", "#vilavelhacultura", "#vilavelhaart", "#vilavelhafeira",
+            "#vilavelhafds", "#vilavelhafitness", "#vilavelhasesaude", "#vilavelhatreino", "#vilavelhasurf",
+            "#vilavelharun", "#vilavelhapraiaativa", "#vilavelhafit", "#vilavelhayoga",
+            "#vilavelhavlog", "#vilavelhastory", "#vilavelhafilme", "#vilavelhaporai", "#vilavelhafotos",
+            "#vilavelhavisual", "#vilavelhareels", "#vilavelhashorts"
         ]
 
         propaganda = [
@@ -59,7 +89,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=megaman+5+detonado')
+            page.goto('https://www.youtube.com/results?search_query=porta+dos+fundos')
             time.sleep(3)
 
             for _ in range(5):
