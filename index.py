@@ -108,6 +108,10 @@ def gravar_propaganda_texto():
                                         "#santaleopoldinavisual", "#santaleopoldinareels", "#santaleopoldinashorts",
                                         "#brejetubavisual", "#brejetubareels", "#brejetubashorts",
                                         "#marilándiavísual", "#marilándiareels", "#marilándiashorts",
+                                        "#comidavisual", "#comidareels", "#comidashorts", "#gastronomiavisual", "#gastronomiareels", "#gastronomiashorts", "#culináriavisual", "#culináriareels", "#culináriashorts", "#docesvisuais", "#docesreels", "#docesshorts", "#salgadosvisuais", "#salgadosreels", "#salgadosshorts", "#padariavisual", "#padariareels", "#padariashorts", "#restaurantevisual", "#restaurantereels", "#restauranteshorts", "#chefvisual", "#chefreels", "#chefshorts", "#cozinhavisual", "#cozinhareels", "#cozinhashorts",
+                                        "#ruaalankardec", "#ruamoema", "#ruasaogabriel", "#ruagetuliofreirenunes", "#ruaanitagaribaldi", "#ruadocoqueiro", "#ruamiracema", "#avenidalucianodasneves", "#ruavenus", "#ruaveracruz", "#ruarepublica", "#ruafloresta", "#avenidacarloslindenberg", "#rua7dejunho",
+
+
 
         ]
 
@@ -141,7 +145,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=megaman+leend+detonadoa')
+            page.goto('https://www.youtube.com/results?search_query=silet+hill')
             time.sleep(3)
 
             for _ in range(5):
