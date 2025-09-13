@@ -20,7 +20,10 @@ def gravar_propaganda_texto():
             "#SolCapixaba", "#ViagemES", "#Capixabando", "#VixDaDepressao", "#IlhaDoMelES",
             "#PedraDaCebola", "#ConventoDaPenha", "#ManguinhosES", "#PraiaDaCosta", "#MeioAmbienteES",
             "#EspíritoSanto", "#TurismoES", "#VitoriaES", "#VilaVelhaES", "#Guarapari", "#DomingosMartins", "#PraiasDoES", "#LitoralCapixaba", "#NaturezaCapixaba", "#MeioAmbienteCapixaba", "#TrilhasES", "#PicoDaBandeira", "#MorroDoMoxuara", "#PedraAzul", "#ParqueDaFonteGrande", "#IlhaDoFrade", "#IlhaDoBoi", "#PraiaDeCamburi", "#PraiaDeItaparica", "#AmoES", "#VemProES", "#DescubraES", "#ESMaravilhoso", "#BelezasCapixabas", "#NaturezaES",
+            "Industrial", "Ipanema", "Soteco", "Vale do Sol", "Vila Bethânia", "Bom Pastor", "Morada Bethânia", "Parque Residencial Bethânia", "Village Belém", "Nova Belém", "Vista Linda", "Treze de Maio", "Chácaras Beira Rio", "Guaritas", "Seminário", "Antártica", "Mamoeiro", "Garoupa", "Pedra da Mulata", "Vale do Sol A", "Vale do Sol B", "Vale do Sol C", "Vale do Sol D", "Calabouço", "Buiaiaras", "Treze de Maio", "Nova Vila Bethânia", "Eldorado", "Santa Terezinha (Lagoa Azul)", "Vila Nova", "Parque do Flamengo", "Nova Viana", "Nova Viana I", "Chácaras Pedra Negra", "Vista Linda", "Estrada da Garoupa", "Rua Biricas", "Rua Bom Jesus do Morro de Baixo", "Rua Presídio", "Rua Pedra da Mulata", "Rua São Paulo de Cima", "Rua Pau Amarelo", "Rua Augusto Alves de Araújo", "Rua Domingos Vicente", "Rua Frederico Ozanan", "Rua Governador Rubim", "Rua Heribaldo Lopes Balestrero", "Avenida Aníbal Moutinho", "Avenida Beira Rio",
+             "#VianaES", "#CulturaVianense", "#HistóriaDeViana", "#CentroDeViana", "#MarcílioDeNoronha", "#Araçatiba", "#Jucu", "#VianaSede", "#GrandeVitoria", "#TurismoViana", "#NaturezaViana", "#TrilhasDeViana", "#IgrejaDeViana", "#GastronomiaViana", "#ComidaCapixaba", "#ArtesanatoCapixaba", "#VianaRural", "#CaféDeViana", "#FeiraDeViana", "#LagoaDeCaracás", "#PedraDaMulata", "#CachoeirasDeViana", "#CaminhosDeViana", "#CulturaCapixaba", "#EspíritoSanto", "#InteriorCapixaba", "#TradiçãoVianense", "#FotosDeViana", "#VianenseComOrgulho", "#VianaAntiga", "#VianaModerna", "#EventosEmViana", "#FestaDeViana", "#PatrimônioHistórico", "#CaminhosDoES", "#RuasDeViana", "#BairrosDeViana", "#IgrejaNossaSenhoraDaConceição", "#PovoDeViana", "#TurismoCapixaba", "#VianaTem", "#VianaÉLinda", "#VianaÉCultura", "#VianaESBrasil", "#CidadeDeViana", "#MoradoresDeViana", "#VidaEmViana", "#Vianando", "#DescubraViana", "#PaixãoPorViana",
 
+             
         ]
 
         propaganda = [
@@ -53,7 +56,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=forza+gameplay')
+            page.goto('https://www.youtube.com/results?search_query=sonic+detonado+sonic+unshelaed')
             time.sleep(3)
 
             for _ in range(5):
