@@ -56,7 +56,59 @@ def gravar_propaganda_texto():
             "#vilavelhafds", "#vilavelhafitness", "#vilavelhasesaude", "#vilavelhatreino", "#vilavelhasurf",
             "#vilavelharun", "#vilavelhapraiaativa", "#vilavelhafit", "#vilavelhayoga",
             "#vilavelhavlog", "#vilavelhastory", "#vilavelhafilme", "#vilavelhaporai", "#vilavelhafotos",
-            "#vilavelhavisual", "#vilavelhareels", "#vilavelhashorts"
+            "#vilavelhavisual", "#vilavelhareels", "#vilavelhashorts",
+            "#serravisual", "#serrareels", "#serrashorts",
+                                        "#cariacicavisual", "#cariacicareels", "#cariacicashorts",
+                                        "#vitóriavisual", "#vitóriareels", "#vitóriashorts",
+                                        "#cachoeirovisual", "#cachoeiroreels", "#cachoeiroshorts",
+                                        "#linharesvisual", "#linharesreels", "#linharesshorts",
+                                        "#guaraparivisual", "#guaraparireels", "#guapararishorts",
+                                        "#saomateusvisual", "#saomateusreels", "#saomateusshorts",
+                                        "#colatinavisual", "#colatinareels", "#colatinashorts",
+                                        "#aracruzvisual", "#aracruzreels", "#aracruzshorts",
+                                        "#vianavisual", "#vianareels", "#vianashorts",
+                                        "#novaveneciavisual", "#novaveneciareels", "#novaveneciashorts",
+                                        "#barradesaofrancisvisual", "#barradesaofrancisareels", "#barradesaofranciasshorts",
+                                        "#santamariadejetibavisual", "#santamariadejetibareels", "#santamariadejetibashorts",
+                                        "#itapemirimvisual", "#itapemirimreels", "#itapemirimshorts",
+                                        "#castelovisual", "#casteloreels", "#casteloshorts",
+                                        "#domingosmartinsvisual", "#domingosmartinsreels", "#domingosmartinsshorts",
+                                        "#saogabrieldapalhavvisual", "#saogabrieldapalhareels", "#saogabrieldapalhashorts",
+                                        "#afonsoclaudiovisual", "#afonsoclaudioreels", "#afonsoclaudioshorts",
+                                        "#baixoguanduvisual", "#baixoguandureels", "#baixoguandushorts",
+                                        "#anchietavisual", "#anchietareels", "#anchietashorts",
+                                        "#guacuiVisual", "#guacuireels", "#guacuishorts",
+                                        "#alegrevisual", "#alegrereels", "#alegreshorts",
+                                        "#jagarereelsvisual", "#jagarereelsreels", "#jagarereelsshorts",
+                                        "#iúnavisual", "#iúnareels", "#iúnashorts",
+                                        "#conceicaodabarraVisual", "#conceicaodabarrareels", "#conceicaodabarrashorts",
+                                        "#sooretamavisual", "#sooretamareels", "#sooretamashorts",
+                                        "#ibatibavisual", "#ibatibareels", "#ibatibashorts",
+                                        "#pinheirosvisual", "#pinheirosreels", "#pinheirosshorts",
+                                        "#vendanovadoimigrantevisual", "#vendanovadoimigrantereels", "#vendanovadoimigranteshorts",
+                                        "#santateresavisual", "#santateresareels", "#santateresashorts",
+                                        "#piúmavisual", "#piúmareels", "#piúmashorts",
+                                        "#ecoporangavisual", "#ecoporangareels", "#ecoporangashorts",
+                                        "#pedrocanáriovisual", "#pedrocanárioreels", "#pedrocanárioshorts",
+                                        "#vargemaltavisual", "#vargemaltareels", "#vargemaltashorts",
+                                        "#riobananalvisual", "#riobananalreels", "#riobananalshorts",
+                                        "#montanhavisual", "#montanhareels", "#montanhashorts",
+                                        "#pancasvisual", "#pancasreels", "#pancasshorts",
+                                        "#munizfreirevisual", "#munizfreireeels", "#munizfreireshorts",
+                                        "#fundãovisual", "#fundãoreels", "#fundãoshorts"
+                                        "#marechalflorianovisual", "#marechalflorianoreels", "#marechalflorianoshorts",
+                                        "#joãoneivavisual", "#joãoneivareels", "#joãoneivashorts"
+                                        "#alfredochavesvisual", "#alfredochavesreels", "#alfredochavesshorts",
+                                        "#muquivisual", "#muquireels", "#muquishorts"
+                                        "#vilavaleriovisual", "#vilavalerioreels", "#vilavaleriashorts",
+                                        "#irupivisual", "#irupireels", "#irupishorts",
+                                        "#presidentekennedyvisual", "#presidentekennedyreels", "#presidentekennedysorts"
+                                        "#boaesperançavisual", "#boaesperançareels", "#boaesperançashorts",
+                                        "#itaguaçúvisual", "#itaguaçúreels", "#itaguaçúshorts",
+                                        "#santaleopoldinavisual", "#santaleopoldinareels", "#santaleopoldinashorts",
+                                        "#brejetubavisual", "#brejetubareels", "#brejetubashorts",
+                                        "#marilándiavísual", "#marilándiareels", "#marilándiashorts",
+
         ]
 
         propaganda = [
@@ -89,7 +141,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=porta+dos+fundos')
+            page.goto('https://www.youtube.com/results?search_query=megaman+leend+detonadoa')
             time.sleep(3)
 
             for _ in range(5):
