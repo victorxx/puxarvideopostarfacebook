@@ -110,6 +110,8 @@ def gravar_propaganda_texto():
                                         "#marilándiavísual", "#marilándiareels", "#marilándiashorts",
                                         "#comidavisual", "#comidareels", "#comidashorts", "#gastronomiavisual", "#gastronomiareels", "#gastronomiashorts", "#culináriavisual", "#culináriareels", "#culináriashorts", "#docesvisuais", "#docesreels", "#docesshorts", "#salgadosvisuais", "#salgadosreels", "#salgadosshorts", "#padariavisual", "#padariareels", "#padariashorts", "#restaurantevisual", "#restaurantereels", "#restauranteshorts", "#chefvisual", "#chefreels", "#chefshorts", "#cozinhavisual", "#cozinhareels", "#cozinhashorts",
                                         "#ruaalankardec", "#ruamoema", "#ruasaogabriel", "#ruagetuliofreirenunes", "#ruaanitagaribaldi", "#ruadocoqueiro", "#ruamiracema", "#avenidalucianodasneves", "#ruavenus", "#ruaveracruz", "#ruarepublica", "#ruafloresta", "#avenidacarloslindenberg", "#rua7dejunho",
+                                        "#avenidacarloslindenberg", "#rua7dejunho", "#linhares", "#linhareses", "#linhares_city", "#linhareseorigem", "#capixaba", "#espiritosanto", "#amorporlinhares", "#linhares_amor", "#turismolinhares", "#vivernalinhares", "#riobananal", "#sooretama", "#aguasdelinhares", "#linhares_beach", "#linhares_lindoo", "#capixabaes", "#praiasdelinhares", "#naturezadelinhares", "#cidadeverde", "#linhares2025", "#esbeleza", "#es_cultura", "#capixabando", "#maravilhasdoes", "#turismoes", "#cariacica", "#vitoriaes", "#espiritosantobrazil", "#linharesoficial", "#linharesmais", "#naturezaes", "#esnatural", "#espaulinho", "#cidadeecologica", "#linharesnaterra", "#meulinhares", "#naturezacapixaba", "#capixabamais", "#linharespraia", "#linharesart", "#linharesfood", "#linhareslovers", "#linhareslife", "#linhares2024", "#esverde", "#esclima", "#capixabapaisagem", "#linharescity", "#turismolinhares", "#capixabaprofundo", "#linharesnatural", "#capixabaflora", "#linharesnoticias", "#linharesdiario", "#linharesdivulga", "#linharescultura", "#linharesfestas", "#linharesnoite", "#linharesdesucesso", "#linharesfotos", "#linharescomamor", "#linharespraias", "#linharesverde", "#linharesparaiso", "#linharesdesert", "#linharescentro", "#linharesbahia", "#linharescomida", "#linharescidade", "#linharesamizade",
+
 
 
 
@@ -145,7 +147,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=silet+hill')
+            page.goto('https://www.youtube.com/results?search_query=filmes+de+humor')
             time.sleep(3)
 
             for _ in range(5):
