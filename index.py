@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#onix", "#onixplus", "#tracker", "#s10", "#montana", "#spin", "#cruze", "#cruzehatch", "#cobalt", "#joy", "#joyplus", "#trailblazer", "#camaro", "#equinox", "#blazer",
+            "#jardimcamburi", "#praiadacosta", "#itabapoana", "#bairroindustrial", "#soteco", "#residencialcoqueiral", "#santamarinha", "#centrovitoria", "#ilhasdasflores", "#jardimamerica", "#santoinacio", "#andorinhas", "#resistência", "#maruípe", "#ilhaodosayal", "#novaalbion", "#santoluiz", "#santahelena", "#consolação", "#boaavista", "#soteco", "#ilhaodosbentos", "#saojorge", "#redençãocariacica", "#ariovaldofavalessa", "#universitario", "#mucurici", "#grandevictoria",
             "#MoquecaCapixaba", "#ComidaCapixaba", "#GastronomiaCapixaba", "#CulináriaCapixaba", "#MoquecaÉCapixaba", "#GastronomiaES", "#ComidaDeVerdade", "#ComidaDoES", "#ComidaTípicaCapixaba", "#SaboresCapixabas", "#RestaurantesES", "#ComidaDeBotecoES", "#FeiraCapixaba", "#CaféCapixaba", "#ComidaArtesanalES", "#DelíciasCapixabas", "#PeixeFritoES", "#ArrozComPeixe", "#ComidaCaseiraES", "#CapixabaDaGema", "#CapixabaNaCozinha",
             "#ChurrascoCapixaba", "#ChurrascoES", "#ChurrasNoES", "#ChurrascoDeFDS", "#Churrasqueada", "#CarnesDoES", "#EspetinhoCapixaba", "#CostelaNoFogoDeChão", "#PicanhaCapixaba", "#ChurrasEntreAmigos", "#ChurrascoArtesanal", "#ChurrascoDeVerdade", "#ChurrascoNaBrasa",
             "#Vitória", "#VilaVelha", "#Serra", "#CariacicaES", "#Guarapari", "#Linhares",
