@@ -7,6 +7,7 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#vectra", "#celta", "#corsa", "#corsaSedan", "#classic", "#kadett", "#omega", "#monza", "#chevette", "#agile", "#meriva", "#zafira", "#astra", "#blazerantiga", "#s10cabinesimples",
             "#onix", "#onixplus", "#tracker", "#s10", "#montana", "#spin", "#cruze", "#cruzehatch", "#cobalt", "#joy", "#joyplus", "#trailblazer", "#camaro", "#equinox", "#blazer",
             "#jardimcamburi", "#praiadacosta", "#itabapoana", "#bairroindustrial", "#soteco", "#residencialcoqueiral", "#santamarinha", "#centrovitoria", "#ilhasdasflores", "#jardimamerica", "#santoinacio", "#andorinhas", "#resistência", "#maruípe", "#ilhaodosayal", "#novaalbion", "#santoluiz", "#santahelena", "#consolação", "#boaavista", "#soteco", "#ilhaodosbentos", "#saojorge", "#redençãocariacica", "#ariovaldofavalessa", "#universitario", "#mucurici", "#grandevictoria",
             "#MoquecaCapixaba", "#ComidaCapixaba", "#GastronomiaCapixaba", "#CulináriaCapixaba", "#MoquecaÉCapixaba", "#GastronomiaES", "#ComidaDeVerdade", "#ComidaDoES", "#ComidaTípicaCapixaba", "#SaboresCapixabas", "#RestaurantesES", "#ComidaDeBotecoES", "#FeiraCapixaba", "#CaféCapixaba", "#ComidaArtesanalES", "#DelíciasCapixabas", "#PeixeFritoES", "#ArrozComPeixe", "#ComidaCaseiraES", "#CapixabaDaGema", "#CapixabaNaCozinha",
@@ -149,7 +150,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=filmes+de+humor')
+            page.goto('https://www.youtube.com/results?search_query=INTITUTO+DE+AMTEMATICA')
             time.sleep(3)
 
             for _ in range(5):
