@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#ConstrucaoCivilVitoria", "#EngenhariaVitoria", "#ObrasVitoria", "#ConstrutoraVitoria", "#VitoriaConstrucoes", "#ConstruindoVitoria", "#ConstrucaoCivilLinhares", "#EngenhariaLinhares", "#ObrasLinhares", "#ConstrutoraLinhares", "#LinharesConstrucoes", "#ConstruindoLinhares", "#ConstrucaoCivilCariacica", "#EngenhariaCariacica", "#ObrasCariacica", "#ConstrutoraCariacica", "#CariacicaConstrucoes", "#ConstruindoCariacica", "#VilaVelhaConstrucaoCivil", "#EngenhariaVilaVelha", "#ObrasVilaVelha", "#ConstrutoraVilaVelha", "#VilaVelhaConstrucoes", "#SerraConstrucaoCivil", "#EngenhariaSerra", "#ObrasSerra", "#ConstrutoraSerra", "#SerraConstrucoes", "#ConstruindoSerra", "#ConstrucaoCivilES", "#EngenhariaES",
+            "#ConstrucaoResidencialVitoria", "#EngenhariaEstruturalVitoria", "#ReformaVitoria", "#ObrasPublicasVitoria", "#ConstrutoraES", "#ObrasIndustriaisVitoria", "#ConstrucaoComercialVitoria", "#ProjetosES", "#ArquiteturaVitoria", "#EngenhariaCivilLinhares", "#ConstrucoesSustentaveisLinhares", "#ObrasLinharesES", "#ResidencialLinhares", "#ConstrucaoRuralLinhares", "#ReformaLinhares", "#ProjetosCariacica", "#ConstrucaoSustentavelCariacica", "#ReformaCariacica", "#EngenhariaCariacicaES", "#ProjetosSerra", "#ConstrucaoSerraES", "#ObrasSerra", "#ResidencialSerra", "#ConstrutoraLinharesES", "#EngenhariaVilaVelha", "#ProjetosVilaVelha", "#ReformaVilaVelha", "#ConstrucoesVilaVelha", "#ObrasVilaVelhaES", "#ResidencialVilaVelha", "#ConstrucaoIndustrialES",
             "#brasilia", "#asaSul", "#asaNorte", "#noroeste", "#sudoeste", "#lagosul", "#lagonorte", "#guara", "#taguatinga", "#ceilandia", "#samambaia", "#recantodasemanha", "#riachofundo", "#riachofundo2", "#aguasclaras", "#vicentepires", "#nucleoBandeirante", "#paranoá", "#sobradinho", "#sobradinho2", "#planaltina", "#cruzeiro", "#candangolandia", "#estrutural", "#brazlandia", "#gama", "#santaMaria", "#jardimbotanico", "#itapoa", "#varjao",
             "#vectra", "#celta", "#corsa", "#corsaSedan", "#classic", "#kadett", "#omega", "#monza", "#chevette", "#agile", "#meriva", "#zafira", "#astra", "#blazerantiga", "#s10cabinesimples",
             "#onix", "#onixplus", "#tracker", "#s10", "#montana", "#spin", "#cruze", "#cruzehatch", "#cobalt", "#joy", "#joyplus", "#trailblazer", "#camaro", "#equinox", "#blazer",
@@ -151,7 +153,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=RESIDENT+EVIL+CODE+VERONICA')
+            page.goto('https://www.youtube.com/results?search_query=gran+sturimo+1+')
             time.sleep(3)
 
             for _ in range(5):
