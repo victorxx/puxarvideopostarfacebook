@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#moda", "#roupas", "#lookdodia", "#estilo", "#tendênciademoda", "#modafeminina", "#modamasculina", "#modacristã", "#roupasfemininas", "#roupasmasculinas", "#modaevangélica", "#modacasual", "#modaplussize", "#modafitness", "#roupasbaratas", "#roupasestilosas", "#roupasmodernas", "#moda2025", "#roupasonline", "#compraroupas", "#lojaderoupas", "#dicasdemoda", "#inspiraçãodelook", "#modajovem", "#lookfeminino", "#lookmasculino", "#estilopróprio", "#modaurbana", "#modaonline", "#fashionbrasil", "#tendênciabrasileira", "#fashionlook", "#ootdbrasil", "#fashionstyle", "#lojaonline", "#outfitdodia", "#lookinspirador", "#estilodevida", "#roupanova", "#tendênciademoda2025", "#modaparairigreja", "#modaparatrabalho", "#modacomfé", "#lookscomestilo", "#visualmoderno", "#roupascasuais", "#lookdoinsta", "#modaparareais", "#modaparavocê", "#roupascompropósito",
+
             "#RuaDoSol", "#RuaDoMar", "#RuaDaOrla", "#RuaDoFarol", "#RuaDasFlores", "#RuaDoPescador", "#RuaDoCais", "#RuaDoLago", "#RuaNova", "#RuaDoCoral", "#RuaDoVento", "#RuaDoBosque", "#RuaDoMorro", "#RuaDaEsperança", "#RuaDoPontal", "#RuaDaAlegria", "#RuaDosPássaros", "#RuaDoVentania", "#RuaDasConchas", "#RuaDaLua", "#RuaDoFarolzinho", "#RuaDoCaminho", "#RuaDoPôrDoSol", "#RuaDaPaz", "#RuaDoProgresso", "#RuaDoComércio", "#RuaDoCentro", "#RuaSenadorFeijó", "#RuaPrincesaIsabel", "#RuaBomJesus",
             "#praiadoleme","#praia","#PraiaDoLeme", "#AvenidaDaOrla", "#RuaDoFarol", "#RuaDaOrla", "#RuaDoMar", "#PraçaDoLeme", "#HotelPajuçara", "#PousadaLeme", "#RestauranteCaranguejoDoLeme", "#BarDoSol", "#QuiosquePraiaDoLeme", "#SorveteriaLeme", "#LanchoneteDoMar", "#MercadoDePeixe", "#AvenidaDurvalDeGoes", "#PraçaDeEventos", "#PraiaDePajuçara", "#PraiaDePontaVerde", "#FeiraDeArtesanato", "#IgrejaDeNossaSenhora", "#ParqueMunicipal", "#CaféDoMar", "#BarDaPraia", "#RestauranteDoFarol", "#PizzariaDoLeme", "#HotelPontal", "#BarDoPescador", "#CasaDeShowLeme", "#ClubePraiaDoLeme", "#AcademiaPraiaDoLeme",
             "#RanchoHabacuc", "#LanchoneteBicoDoce", "#CasaDeLancheDelivery", "#ReiDoLancheEAçaiDelivery", "#RestauranteSaborDaRoca", "#LanchoneteDidicao", "#LanchoneteCastelo", "#RestauranteSchwanz", "#SaborDaVilaRestaurante", "#NMariaFortunatoRestaurante", "#RestauranteChurrascao", "#RestauranteCostelaDoBafoDoGaúcho", "#RestauranteColonial", "#BomBordoRestaurante", "#DeliciasDaPraia", "#CantinaVicenza", "#BarraMar", "#FeijaoECia", "#RezendeRestaurante", "#WaltinhoRestaurante", "#DeliciaMineira", "#RestauranteItagarça", "#RestauranteValeDoSul", "#RestauranteCaranguejão",
@@ -168,7 +170,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=silver+gameplay+dreamcast')
+            page.goto('https://www.youtube.com/results?search_query=silent+hill+3+game')
             time.sleep(3)
 
             for _ in range(5):
