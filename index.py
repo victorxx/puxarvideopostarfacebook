@@ -7,6 +7,7 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+                "#GTAViceCity", "#StreetOfRage", "#MaxPayne", "#HotlineMiami", "#NeedForSpeed", "#RetroGaming", "#ArcadeGames", "#DoubleDragon", "#MetalSlug", "#ContraGame", "#MafiaGame", "#DriverPS1", "#TrueCrimeStreetsOfLA", "#VirtualCop", "#RetroGames", "#OldSchoolGames", "#Playstation1", "#SegaGenesis", "#SNES", "#NESClassic", "#BeatEmUp", "#ShootEmUp", "#ClassicArcade", "#PS2Games", "#GameBoyAdvance", "#PixelArtGames", "#TopDownShooter", "#RunAndGun", "#ClassicGaming", "#80sGames", "#90sGames", "#GamingNostalgia", "#HardcoreGamer", "#IndieRetro", "#GamingMemories", "#ViceCityVibes", "#ClassicGTA", "#GTAThrowback", "#TimeToPlay", "#GameOver", "#InsertCoin", "#2DActionGames", "#SideScroller", "#ClassicShooter", "#FPSRetro", "#DrivingGames", "#CrimeGames", "#VirtualArcade", "#CoinOpGames",
                 "#amigosparaSempre",
                 "#vidaloka",
                 "#partiuaventura",
@@ -2502,7 +2503,7 @@ def gravar_propaganda_texto():
             page = browser.new_page()
             links = set()
 
-            page.goto('https://www.youtube.com/results?search_query=robotica+python')
+            page.goto('https://www.youtube.com/results?search_query=UOL')
             time.sleep(3)
 
             for _ in range(5):
