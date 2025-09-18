@@ -7,6 +7,16 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+                "#VolkswagenGolG8",
+                "#RenaultKwid",
+                "#FiatMobi",
+                "#FiatCronos",
+                "#Peugeot208",
+                "#HyundaiHB20",
+                "#ChevroletOnix",
+                "#FiatArgo",
+                "#RenaultLogan",
+                "#FiatStrada",
             "#contrarrevolucionário",
             "#desconstitucionalizar",
             "#desincompatibilização",
