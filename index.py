@@ -7,6 +7,7 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+              "#cidade", "#casa", "#moradia", "#residência", "#abrigo", "#pousada", "#habitação", "#rancho", "#toca", "#estância", "#barraca", "#lar", "#cabana", "#choupana", "#fazenda",
                 "#carropotente", "#velocidadepura", "#motorroncando", "#asfaltoquente", "#vidrosfume", "#rodascromadas", "#bancorebaixado", "#volanteesportivo", "#marchaturbo", "#escapeaberto", "#potenciaextrema", "#pilotagembraba", "#carronoponto", "#estilodecarro", "#vidalowcar", "#garagestyle", "#turbonave", "#carrobaixado", "#paixaoporcarros", "#carrocultura",
                 "#Alfajor",
                 "#Alfajorcitosdemaicena",
