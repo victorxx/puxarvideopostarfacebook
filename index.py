@@ -7,6 +7,7 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#Lasai", "#Oteque", "#Oro", "#Olympe", "#Mee", "#ChezClaude", "#Escama", "#Grado", "#BabboOsteria", "#CasaDoSardo", "#Lilia", "#SudOPássaroVerde", "#GeroRio", "#Sult", "#Artigiano", "#BottegaDelVino", "#Pomodorino", "#RisoBistrô", "#OuiOui",
             "#SonicTheHedgehog", "#Sonic2", "#Sonic3", "#SonicAndKnuckles", "#SonicAdventure", "#SonicAdventure2", "#SonicHeroes", "#SonicGenerations", "#SonicColors", "#SonicForces", "#SonicMania", "#SonicUnleashed", "#SonicCD", "#SonicR", "#SonicSpinball",
               "#cidade", "#casa", "#moradia", "#residência", "#abrigo", "#pousada", "#habitação", "#rancho", "#toca", "#estância", "#barraca", "#lar", "#cabana", "#choupana", "#fazenda",
                 "#carropotente", "#velocidadepura", "#motorroncando", "#asfaltoquente", "#vidrosfume", "#rodascromadas", "#bancorebaixado", "#volanteesportivo", "#marchaturbo", "#escapeaberto", "#potenciaextrema", "#pilotagembraba", "#carronoponto", "#estilodecarro", "#vidalowcar", "#garagestyle", "#turbonave", "#carrobaixado", "#paixaoporcarros", "#carrocultura",
