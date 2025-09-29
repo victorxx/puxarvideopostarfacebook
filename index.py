@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#BigMac", "#CheddarMcMelt", "#QuarterãoComQueijo", "#DuploCheddar", "#TriploCheddar", "#McNíficoBacon", "#McChicken", "#McFish", "#ClubHouse", "#McPicanha", "#McVeggie", "#ChickenMcNuggets", "#ChickenSupreme", "#McCrispy", "#BatataFrita", "#BatataRustica", "#MolhoBarbecue", "#MolhoCheddar", "#MolhoAgridoce", "#McFlurry", "#Sundae", "#TortaDeMaçã", "#TortaDeBanana", "#McShake", "#CocaCola", "#Fanta", "#Sprite", "#Água", "#SucoDeLaranja", "#McLancheFeliz", "#Café", "#Capuccino", "#Donuts", "#Brownie", "#Rosquinha", "#MenuCompartilhar"
+,
             "#gelopicado", "#gelo", "#gelodesabor", "#gelodecoco", "#gelocombebida", "#gelocomsabor", "#gelinho", "#geladinhogourmet", "#geladinhosaboroso", "#gelinhonatural", "#gelinhosaborizado", "#gelinhocomfruta", "#gelinhogourmetcaseiro", "#gelinhodeluxo", "#gelinhoparafestas", "#gelinhodeverão", "#gelinhocaseiro", "#gelinhodafruta", "#gelinhorefrescante", "#gelinhocombebida"
 ,
             "#Lasai", "#Oteque", "#Oro", "#Olympe", "#Mee", "#ChezClaude", "#Escama", "#Grado", "#BabboOsteria", "#CasaDoSardo", "#Lilia", "#SudOPássaroVerde", "#GeroRio", "#Sult", "#Artigiano", "#BottegaDelVino", "#Pomodorino", "#RisoBistrô", "#OuiOui",
