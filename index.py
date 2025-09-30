@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#Tekken", "#Tekken2", "#Tekken3", "#StreetFighterAlpha3", "#StreetFighterEXPlusAlpha", "#MortalKombat3", "#MortalKombat4", "#DeadOrAlive", "#DeadOrAlive2", "#BloodyRoar", "#BloodyRoar2", "#VirtuaFighter", "#VirtuaFighter2", "#SoulEdge", "#SoulCalibur", "#GuiltyGear", "#FightingVipers", "#BushidoBlade", "#RivalSchools", "#TobalNo1", "#TobalNo2", "#DarkStalkers3", "#StreetFighter2", "#MortalKombat", "#KillerInstinct", "#SamuraiShodown", "#FatalFury", "#DragonBallZSuperButoden", "#TeenageMutantNinjaTurtlesTournamentFighters", "#JusticeLeagueTaskForce", "#PrimalRage", "#DarkStalkers"
+,
             "#BigMac", "#CheddarMcMelt", "#QuarterãoComQueijo", "#DuploCheddar", "#TriploCheddar", "#McNíficoBacon", "#McChicken", "#McFish", "#ClubHouse", "#McPicanha", "#McVeggie", "#ChickenMcNuggets", "#ChickenSupreme", "#McCrispy", "#BatataFrita", "#BatataRustica", "#MolhoBarbecue", "#MolhoCheddar", "#MolhoAgridoce", "#McFlurry", "#Sundae", "#TortaDeMaçã", "#TortaDeBanana", "#McShake", "#CocaCola", "#Fanta", "#Sprite", "#Água", "#SucoDeLaranja", "#McLancheFeliz", "#Café", "#Capuccino", "#Donuts", "#Brownie", "#Rosquinha", "#MenuCompartilhar"
 ,
             "#gelopicado", "#gelo", "#gelodesabor", "#gelodecoco", "#gelocombebida", "#gelocomsabor", "#gelinho", "#geladinhogourmet", "#geladinhosaboroso", "#gelinhonatural", "#gelinhosaborizado", "#gelinhocomfruta", "#gelinhogourmetcaseiro", "#gelinhodeluxo", "#gelinhoparafestas", "#gelinhodeverão", "#gelinhocaseiro", "#gelinhodafruta", "#gelinhorefrescante", "#gelinhocombebida"
