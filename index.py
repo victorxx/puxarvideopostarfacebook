@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#Brigadeiro", "#Beijinho", "#DoceDeLeite", "#Pudim", "#BoloDeCenoura", "#Quindim", "#Cocada", "#Paçoca", "#Rocambole", "#Pavê", "#MousseDeMaracujá", "#Churros", "#TortaDeLimão", "#Rapadura", "#Canjica", "#DocesBrasileiros", "#DocesCaseiros", "#DocesArtesanais", "#DocesTradicionais", "#ReceitaDeDoce", "#AmantesDeDoces", "#DocesDaVovó", "#DocesParaFesta", "#SobremesasDeliciosas", "#DocinhosDeFesta", "#Chocolate", "#Caramelo", "#DoceComFrutas", "#DoceComCoco", "#DoceComAmendoim", "#DoceGelado", "#SobremesaDeLeiteCondensado", "#DocesDePadaria", "#DocesComChocolate"
+,
             "#Pedigree", "#RoyalCanin", "#PurinaProPlan", "#Golden", "#DogChow", "#Nutrience", "#PremierPet", "#Guabi", "#Equilibrio", "#Choice", "#Farmina", "#GranPlus", "#HillsScienceDiet", "#Eukanuba", "#Naturalis", "#Monello", "#TotalAlimentos", "#ProPlan", "#VitalCan", "#NaturalPet", "#FitDog", "#MaxCat", "#Biofresh", "#Chappi", "#DrogaVET", "#Wiskas", "#TopDog", "#RaçãoBicho", "#RaçãoNobre", "#PetMais",
             "#Tekken", "#Tekken2", "#Tekken3", "#StreetFighterAlpha3", "#StreetFighterEXPlusAlpha", "#MortalKombat3", "#MortalKombat4", "#DeadOrAlive", "#DeadOrAlive2", "#BloodyRoar", "#BloodyRoar2", "#VirtuaFighter", "#VirtuaFighter2", "#SoulEdge", "#SoulCalibur", "#GuiltyGear", "#FightingVipers", "#BushidoBlade", "#RivalSchools", "#TobalNo1", "#TobalNo2", "#DarkStalkers3", "#StreetFighter2", "#MortalKombat", "#KillerInstinct", "#SamuraiShodown", "#FatalFury", "#DragonBallZSuperButoden", "#TeenageMutantNinjaTurtlesTournamentFighters", "#JusticeLeagueTaskForce", "#PrimalRage", "#DarkStalkers"
 ,
