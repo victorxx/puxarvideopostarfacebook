@@ -7,6 +7,9 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+
+            "#sonic", "#sonic2", "#sonic3", "#streetsOfRage", "#goldenAxe", "#alteredBeast", "#kidChameleon", "#earthwormJim", "#shiningForce", "#contraHardCorps", "#castlevaniaBloodlines", "#gunstarHeroes", "#comixZone", "#sonicSpinball", "#beyondOasis", "#castleOfIllusion", "#worldOfIllusion", "#phantasyStarIV", "#thunderForceIII", "#aladdin", "#roadRashII", "#strider", "#ghoulsnGhosts", "#shiningForceII", "#vectorman", "#columns", "#eccoTheDolphin", "#ecoofTheTidesOfTime", "#revengeOfShinobi", "#wonderBoyInMonsterWorld", "#toejamAndEarl", "#virtuaFighter2", "#monsterWorldIV", "#dynamiteHeaddy", "#rockmanTheWilyWars", "#superFantasyZone", "#shinobiIII", "#streetsOfRage2", "#lastBattle", "#mortalKombat", "#mortalKombatII", "#tmntHyperstoneHeist", "#alanWake", "#microMachines", "#roadAvenger", "#outrun", "#spaceHarrier2", "#afterBurnerII", "#aeroTheAcroBat", "#battletoadsDoubleDragon", "#batmanReturns", "#batmanRevengeOfTheJoker", "#aliens", "#shadowDancer", "#vectorMan2", "#earthwormJim2", "#wildTangent", "#lightCrusader", "#decapAttack", "#echs", "#eswatCityUnderSiege", "#revival", "#flicky", "#fantasticDizzy", "#forgottenWorlds", "#goldenAxeII", "#goldenAxeIII", "#rocketKnightAdventures", "#swordOfVermillion", "#mickeysUltimateChallenge", "#toyStory", "#superHangOn", "#jurassicPark", "#shadowrun", "#stingman", "#splatterhouse2", "#zombiesAteMyNeighbors", "#missileCommand", "#spyHunter", "#raidenTrad", "#populous", "#plok", "#princeOfPersia", "#piratesGold", "#paperboy", "#polo", "#pgaTourGolf", "#pgaTourGolf2", "#nhl94", "#nbaJamTE", "#johnnyBazooka", "#jungleStrike", "#jurassicParkPart2", "#psychicWorld", "#ristar", "#shelterToggle", "#toejamAndEarl2", "#woodyWoodpecker", "#zeroWing", "#zool2", "#alienStorm", "#gauntletTheThirdEncounter", "#shinobiAhead"
+,
             "#SuperMario64",
 "#ZeldaOcarinaOfTime",
 "#ZeldaMajorasMask",
