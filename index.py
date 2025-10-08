@@ -7,6 +7,12 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#frozen", "#toystory", "#moana", "#procurandonemo", "#carros", "#divertidamente", "#meumalvadofavorito", "#zootopia", "#abelaeomonstro", "#shrek",
+"#ralphquebraaainternet", "#detonaRalph", "#cinderela", "#aeraumavez", "#aladdin", "#branca de neve", "#mulan", "#tangled", "#vivaincrivel", "#liloestitch",
+"#up", "#pequenainumeroseis", "#hoteltransilvania", "#madagascar", "#aepoca do gelo", "#kungfupanda", "#rio", "#valente", "#osincriveis", "#bobesponja",
+"#carrosses", "#omoana", "#megamente", "#ralph", "#batman", "#superman", "#smurfs", "#bee movie", "#sing", "#walle", "#coraline", "#howtotrainyourdragon",
+"#thelittlemermaid", "#peterpan", "#insideout", "#monstersinc", "#despicableme", "#thelionking", "#findingdory", "#thesecretlifeofpets", "#trolls", "#enchanted",
+
             "#CallOfDutyBlackOps2", "#CallOfDutyModernWarfare3", "#MortalKombat9", "#Skate3", "#FIFA14", "#PES2013", "#SaintsRowTheThird", "#Catherine", "#FarCry3", "#MaxPayne3", "#SleepingDogs", "#DragonAgeOrigins", "#LollipopChainsaw", "#Borderlands2", "#Prototype2", "#Mirror'sEdge", "#FightNightChampion", "#DeadIsland", "#LostPlanet2", "#VirtuaFighter5",
 
             "#TheLastOfUs", "#Uncharted3", "#GodOfWar3", "#RedDeadRedemption", "#GTA5", "#HeavyRain", "#MetalGearSolid4", "#LittleBigPlanet", "#DemonSouls", "#Killzone3", "#BatmanArkhamCity", "#AssassinsCreed2", "#BioshockInfinite", "#GranTurismo5", "#DarkSouls", "#NiNoKuni", "#Infamous2", "#DeadSpace2", "#JourneyPS3", "#Resistance3",
