@@ -7,6 +7,17 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#RuaDoLazer #DomingosMartins",
+"#RuaJoãoGuilherme #DomingosMartins",
+"#RuaBeloHorizonte #DomingosMartins",
+"#RuaKaiser #DomingosMartins",
+"#RuaLuizThiesen #DomingosMartins",
+"#AvenidaPresidenteVargas #DomingosMartins",
+"#RuaJoãoBatistaWernersbach #DomingosMartins",
+"#RuaFelipeWolf #DomingosMartins",
+"#RuaPrincesaIsabel #DomingosMartins",
+"#RuaRobertoSilveira #DomingosMartins"
+,
             "#BatmanReturns", "#BatmanTheVideoGame", "#TheAdventuresOfBatmanAndRobin", "#BatmanReturns", "#TheAdventuresOfBatmanAndRobin", "#BatmanRevengeOfTheJoker", "#BatmanForeverTheArcadeGame", "#BatmanAndRobin", "#BatmanBeyondReturnOfTheJoker", "#BatmanGothamCityRacer", "#BatmanVengeance", "#BatmanDarkTomorrow", "#BatmanBegins", "#BatmanRiseOfSinTzu", "#BatmanArkhamAsylum", "#BatmanArkhamCity", "#BatmanArkhamOrigins",
 
             "#frozen", "#toystory", "#moana", "#procurandonemo", "#carros", "#divertidamente", "#meumalvadofavorito", "#zootopia", "#abelaeomonstro", "#shrek",
