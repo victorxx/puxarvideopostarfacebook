@@ -7,6 +7,8 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#RuaEspíritoSanto", "#AvenidaSãoJoão", "#RuaSergipe", "#AvenidaEspíritoSanto", "#RuaGoiás", "#RuaSantaCatarina", "#RuaMinasGerais", "#RuaPresidenteVargas", "#RuaRioDeJaneiro", "#RuaSantaHelena", "#RuaAmazonas", "#RuaJorgePinheiro", "#RuaAlfredoCoutoTeixeira", "#RuaCarlosAlberto", "#RuaAvenidaCariacica",
+
                                         "#OClone",
                                         "#AvenidaBrasil",
                                         "#SenhoraDoDestino",
