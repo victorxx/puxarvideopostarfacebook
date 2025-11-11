@@ -7,6 +7,7 @@ import os  # IMPORTANTE
 def gravar_propaganda_texto():
     try:
         tags = [
+            "#Bala7Belo", "#BalaSoft", "#BalaFreegells", "#BalaHalls", "#BalaMentos", "#BalaFini", "#BalaButterToffees", "#BalaJujuba", "#BalaDelícia", "#BalaBeijo", "#BalaBigBig", "#BalaDadinho", "#BalaChita", "#BalaArcor", "#BalaRebite", "#BalaIogurte", "#BalaMentosFruit", "#BalaMentosMint", "#BalaHallsExtraStrong", "#BalaFrutella", "#BalaLollo", "#BalaTuttiFrutti", "#BalaCaramelo", "#BalaGelatina", "#BalaConfete", "#BalaMastigável", "#BalaColorida", "#BalaSortida", "#BalaDeMorango", "#BalaDeUva", "#BalaDeCereja",
             "LencoisMaranhenses",
             "ChapadaDiamantina",
             "PantanalMatogrossense",
